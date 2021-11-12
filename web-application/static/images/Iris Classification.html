@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5000/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF=8">
+	<title>Iris Classification</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><link rel="stylesheet" href="./Iris Classification_files/bootstrap-theme.min.css"><link rel="stylesheet" href="./Iris Classification_files/bootstrap.min.css"><script src="./Iris Classification_files/bootstrap.min.js.下载"></script></head>
+
+
+
+
+
+
+<body>
+<div class="container">
+
+<form id="submit_params" method="POST" action="http://127.0.0.1:5000/">
+<div class="form-group">
+<table class="table">
+    <tbody><tr>
+        <td width="300px"><p style="text-align:center"></p><h1><br>Iris Classification</h1><p></p></td>
+        <td><p style="text-align:center">
+			<img src="http://127.0.0.1:5000/static/images/Iris.jpg" alt="titanic" style="padding:1px; border:1px solid #021a40; width: 80%; height: 80%">
+			</p>
+		</td>
+        <td width="200px"><p style="text-align:center"></p><h3>Three different kinds of iris</h3><p></p></td>
+    </tr>
+    <tr>
+        <td>
+            <table class="table" border="0">
+                <tbody><tr>
+                    <td><label for="male">Data Plot</label></td>
+                    <td>
+                     <select class="selectpicker" name="selected_plot">
+				          <option value="Pairplot" selected="">Pairplot</option>
+				          <option>Andrews Curves</option>
+				          <option>Pairplot</option>
+				          <option>Linear regression</option>
+				      </select>
+					</td>
+                </tr>
+                <tr>
+                    <td><label for="male">SepalWidth</label></td>
+                    <td><input type="number" class="form-control" id="SepalWidth" placeholder="Enter fare" name="SepalWidth" value="3.3">
+                    </td>
+                </tr>
+                
+                
+                
+                
+                
+                
+                
+
+          <tr>
+                    <td><label for="male">SepalLength</label></td>
+                    <td><input type="number" class="form-control" id="SepalLength" placeholder="Enter fare" name="SepalLength" value="3.3">
+                    </td>
+                </tr><tr>
+                    <td><label for="male">PetalWidth</label></td>
+                    <td><input type="number" class="form-control" id="PetalWidth" placeholder="Enter fare" name="PetalWidth" value="3.3">
+                    </td>
+                </tr><tr>
+                    <td><label for="male">PetalLength</label></td>
+                    <td><input type="number" class="form-control" id="PetalLength" placeholder="Enter fare" name="PetalLength" value="3.3">
+                    </td>
+                </tr></tbody></table>
+
+        </td>
+
+        <td><br>
+        </td>
+        <td>
+        	<p style="text-align:center">Iris kinds</p>
+        	<p style="text-align:center">
+			<img src="http://127.0.0.1:5000/static/images//kinds.png" alt="cabin locations" style="padding:1px; border:1px solid #021a40; width: 100%; height: 100%">
+			</p></td>
+    </tr>
+    <tr><td><button class="btn btn-default" type="submit" style="width: 100px; height: 30px;">Classify</button><button class="btn btn-default" type="submit" style="width: 100px; height: 30px;">Plot</button></td><td></td><td></td>
+    </tr><tr>
+</tr></tbody></table>
+</div>
+</form>
+
+</div>
+
+</body></html>
