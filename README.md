@@ -1,4 +1,4 @@
-# Data-Engineering-Create-End-to-End-Data-Visualization-Pipeline
+# Continuous Delivery of Flask/FastAPI Data Engineering API on GCP/AWS/Azure
 
 The Iris dataset is probably one of the most used datasets in the fields of pattern recognition and machine learning, and many textbooks use this data for case studies. This project is based on data exploration and KNN-based classification of the Iris dataset under the Flask microservices framework. The Iris data set was originally measured by Edgar Anderson and later used in the 1936 article 'The use of multiple measurements in taxonomic problems' by the famous statistician and biologist R.A Fisher, using it as an example of linear discriminant analysis ( An example of Linear Discriminant Analysis. 
 
